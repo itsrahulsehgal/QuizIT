@@ -7,7 +7,8 @@ import { useFormik, Form, FormikProvider } from 'formik';
 import eyeFill from '@iconify/icons-eva/eye-fill';
 import eyeOffFill from '@iconify/icons-eva/eye-off-fill';
 // material
-import { Stack, TextField, IconButton, InputAdornment } from '@material-ui/core';
+import { TextField, IconButton, InputAdornment } from '@material-ui/core';
+import { Stack } from '@mui/material';
 import { LoadingButton } from '@material-ui/lab';
 
 import { register } from '../../../actions/auth';

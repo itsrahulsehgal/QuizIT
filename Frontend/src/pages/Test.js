@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 // material
-import { Stack, Container, Typography, Paper } from '@material-ui/core';
+import { Container, Typography, Paper } from '@material-ui/core';
+import { Stack } from '@mui/material';
 // components
 import Page from '../components/Page';
 import TestForm from '../components/test/TestForm';

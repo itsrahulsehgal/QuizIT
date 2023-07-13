@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import { experimentalStyled as styled } from '@material-ui/core/styles';
 import { useNavigate } from 'react-router';
 // material
-import { Stepper, Step, StepLabel, Stack, Container, Typography } from '@material-ui/core';
+import { Stepper, Step, StepLabel,Container, Typography } from '@material-ui/core';
+import { Stack } from '@mui/material';
 // components
 import Page from '../components/Page';
 import DetailsForm from '../components/createTest/DetailsForm';

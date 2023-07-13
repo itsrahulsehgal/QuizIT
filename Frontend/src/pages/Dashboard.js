@@ -1,7 +1,8 @@
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 // material
-import { Grid, Container, Stack, Typography } from '@material-ui/core';
+import { Grid, Container, Typography } from '@material-ui/core';
+import { Stack } from '@mui/material';
 // components
 import Page from '../components/Page';
 import { ClassCard, NewClassPopover } from '../components/dashboard';
