@@ -8,13 +8,14 @@ import eyeFill from '@iconify/icons-eva/eye-fill';
 import eyeOffFill from '@iconify/icons-eva/eye-off-fill';
 // material
 import {
-  Stack,
+  
   Checkbox,
   TextField,
   IconButton,
   InputAdornment,
   FormControlLabel
 } from '@material-ui/core';
+import { Stack } from '@mui/material';
 import { LoadingButton } from '@material-ui/lab';
 
 import { login } from '../../../actions/auth';

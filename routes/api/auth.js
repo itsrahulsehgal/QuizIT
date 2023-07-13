@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const auth = require("../middleWare/auth");
+const auth = require("./../../middleWare/auth");
 const {
   check,
   validationResult
@@ -8,8 +8,8 @@ const {
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 
-const User = require("../models/User");
-const Classroom = require("../models/Classroom");
+const User = require("./../../models/User");
+const Classroom = require("./../../models/Classroom");
 
 
 // GET, api/auth // type of req, url

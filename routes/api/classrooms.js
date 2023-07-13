@@ -7,9 +7,9 @@ const {
   validationResult
 } = require('express-validator');
 
-const auth = require('../middleWare/auth');
-const Classroom = require('../models/Classroom');
-const User = require('../models/User');
+const auth = require('./../../middleWare/auth');
+const Classroom = require('./../../models/Classroom');
+const User = require('./../../models/User');
 
 // @route    GET api/classroom/
 // @desc     Get currentjoinedUsers classroom

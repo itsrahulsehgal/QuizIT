@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 import {
   Card,
   Table,
-  Stack,
   Avatar,
   TableRow,
   TableBody,
@@ -16,6 +15,7 @@ import {
   TableContainer,
   TablePagination
 } from '@material-ui/core';
+import { Stack } from '@mui/material';
 // components
 import Page from '../components/Page';
 import Label from '../components/Label';

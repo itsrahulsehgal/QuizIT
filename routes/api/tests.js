@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const auth = require('../middleWare/auth');
+const auth = require('./../../middleWare/auth');
 const {
   check,
   validationResult
@@ -8,10 +8,10 @@ const {
 const multer = require('multer');
 const upload = multer();
 
-const Classroom = require('../models/Classroom');
-const User = require('../models/User');
-const Test = require('../models/Test');
-const Question = require('../models/Question');
+const Classroom = require('./../../models/Classroom');
+const User = require('./../../models/User');
+const Test = require('./../../models/Test');
+const Question = require('./../../models/Question');
 
 // Utiliy Functions
 function createData(name, email, marks, total, percentage) {
