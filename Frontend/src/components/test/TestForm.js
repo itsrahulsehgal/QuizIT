@@ -6,11 +6,10 @@ import {
   RadioGroup,
   FormControlLabel,
   FormControl,
-  Stack,
   Button,
   Typography
 } from '@material-ui/core';
-
+import { Stack } from '@mui/material';
 TestForm.propTypes = {
   count: PropTypes.number.isRequired,
   data: PropTypes.array.isRequired,

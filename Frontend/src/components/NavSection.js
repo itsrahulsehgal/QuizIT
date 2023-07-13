@@ -6,7 +6,7 @@ import { NavLink as RouterLink, matchPath, useLocation } from 'react-router-dom'
 import arrowIosForwardFill from '@iconify/icons-eva/arrow-ios-forward-fill';
 import arrowIosDownwardFill from '@iconify/icons-eva/arrow-ios-downward-fill';
 // material
-import { alpha, useTheme, experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled, alpha, useTheme } from '@mui/material';
 import { Box, List, ListItem, Collapse, ListItemText, ListItemIcon } from '@material-ui/core';
 import { getClass } from '../actions/classroom';
 

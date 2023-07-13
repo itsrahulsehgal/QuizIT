@@ -16,10 +16,9 @@ import {
   DialogActions,
   DialogContent,
   DialogTitle,
-  Stack,
   Typography
 } from '@material-ui/core';
-
+import { Stack } from '@mui/material';
 import { editClass } from '../../actions/classroom';
 
 function EditClass({ editClass, classroom: { currClass } }) {

@@ -1,7 +1,8 @@
 // material
 
 import PropTypes from 'prop-types';
-import { Stack, Button, Typography } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
+import { Stack } from '@mui/material';
 
 // ----------------------------------------------------------------------
 

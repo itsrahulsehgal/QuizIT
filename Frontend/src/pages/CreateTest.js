@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from '@mui/material';
 import { useNavigate } from 'react-router';
 // material
 import { Stepper, Step, StepLabel,Container, Typography } from '@material-ui/core';

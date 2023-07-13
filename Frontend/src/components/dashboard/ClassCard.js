@@ -5,7 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 import leaveFill from '@iconify/icons-eva/trash-2-fill';
 // material
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from '@mui/material';
 import { IconButton, Link, Card, Grid, Avatar, Typography, CardContent } from '@material-ui/core';
 import SvgIconStyle from '../SvgIconStyle';
 import { mockImgCover } from '../../utils/mockImages';
