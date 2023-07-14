@@ -5,7 +5,8 @@ import plusFill from '@iconify/icons-eva/plus-fill';
 import trashFill from '@iconify/icons-eva/trash-2-fill';
 import { useDropzone } from 'react-dropzone';
 // material
-import { Stack, TextField, IconButton, Button, Typography } from '@material-ui/core';
+import { TextField, IconButton, Button, Typography } from '@material-ui/core';
+import { Stack } from '@mui/material';
 import Resizer from 'react-image-file-resizer';
 
 // ----------------------------------------------------------------------

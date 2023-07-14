@@ -12,10 +12,9 @@ import {
   DialogActions,
   DialogContent,
   DialogTitle,
-  Stack,
   Typography
 } from '@material-ui/core';
-
+import { Stack } from '@mui/material';
 import { createClass } from '../../../actions/user';
 
 function CreateClass({ createClass }) {

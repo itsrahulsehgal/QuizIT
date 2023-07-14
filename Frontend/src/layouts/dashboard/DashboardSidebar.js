@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 
 // material
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from '@mui/material';
 import { Box, Link, Drawer, Typography, Avatar } from '@material-ui/core';
 // components
 import sidebarConfig from '../SidebarConfig';

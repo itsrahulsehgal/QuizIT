@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Stack, Typography } from '@material-ui/core';
+import { Stack } from '@mui/material';
+import { Typography } from '@material-ui/core';
 
 Timer.propTypes = {
   timer: PropTypes.array.isRequired,

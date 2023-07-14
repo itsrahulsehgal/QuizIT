@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import leaveFill from '@iconify/icons-eva/close-fill';
 import { useNavigate } from 'react-router';
 // material
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from '@mui/material';
 import { Card, Grid, Button, IconButton, Typography, CardContent } from '@material-ui/core';
 import { deleteTest } from '../../actions/classroom';
 import { getTest } from '../../actions/test';

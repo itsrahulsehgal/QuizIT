@@ -1,6 +1,6 @@
 import { Link as RouterLink } from 'react-router-dom';
 // material
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from '@mui/material';
 import { Card, Link, Container, Typography } from '@material-ui/core';
 import { Stack } from '@mui/material';
 // layouts

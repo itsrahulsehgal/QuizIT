@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import plusFill from '@iconify/icons-eva/plus-fill';
 import trashFill from '@iconify/icons-eva/trash-2-fill';
 // material
-import { Stack, TextField, IconButton, Button } from '@material-ui/core';
+import { TextField, IconButton, Button } from '@material-ui/core';
+import { Stack } from '@mui/material';
 
 // ----------------------------------------------------------------------
 

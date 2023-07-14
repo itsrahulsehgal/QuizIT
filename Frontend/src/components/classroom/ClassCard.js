@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import plusFill from '@iconify/icons-eva/plus-fill';
 import linkFill from '@iconify/icons-eva/link-fill';
 // material
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from '@mui/material';
 import { Button, Card, Grid, Avatar, Typography, CardContent } from '@material-ui/core';
 import SvgIconStyle from '../SvgIconStyle';
 import { mockImgCover } from '../../utils/mockImages';
