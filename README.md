@@ -1,4 +1,4 @@
-<h3 align="center">Learn-Apti Project</h3>
+# Learn-Apti Project
 
 
 ## Table of Contents 📕
