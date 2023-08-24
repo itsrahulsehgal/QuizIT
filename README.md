@@ -74,8 +74,6 @@ These are the prerequisites required to run this application:
 
 ### Installation
 
-<img src="https://media.giphy.com/media/kdiLau77NE9Z8vxGSO/giphy.gif" width="40%"><br>
-
 1. Clone the Manthan repository form GitHub
 
 ```sh
