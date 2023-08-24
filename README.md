@@ -90,7 +90,7 @@ These are the prerequisites required to run this application:
 3. To run the application in development server
 
 ```sh
-  cd client
+  cd Frontend
   npm install
   cd ..
   npm install
