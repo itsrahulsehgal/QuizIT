@@ -1,0 +1,316 @@
+.q_add_body {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  height: 50vh;
+}
+
+/* Question */
+
+.question_no {
+  width: 100%;
+  margin: 0.5rem;
+  margin-left: 50px;
+  height: 3rem;
+  color: white;
+  font-size: 25px;
+}
+
+.question {
+  width: 100%;
+  margin: 0.5rem;
+  height: 10rem;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.question_input {
+  width: 100%;
+  height: 100%;
+}
+
+.question_input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid rgb(141, 109, 255);
+  background-color: #212121;
+  font-size: 30px;
+  color: white;
+
+  text-align: center;
+}
+
+.Points_selection {
+  margin: 20px;
+}
+
+/* Answer */
+
+.ans {
+  width: 100%;
+  height: 3.5rem;
+  text-align: center;
+  margin: 0.5rem;
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ans_input {
+  width: 100%;
+  height: 100%;
+}
+.ans_input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid rgb(141, 109, 255);
+  background-color: #212121;
+
+  font-size: 30px;
+  color: white;
+
+  text-align: center;
+}
+
+/* CheckBox */
+
+.check_mark {
+  margin: 50px;
+}
+
+/* checkbox settings 👇 */
+
+.ui-checkbox {
+  --primary-color: #1677ff;
+  --secondary-color: #fff;
+  --primary-hover-color: #4096ff;
+  /* checkbox */
+  --checkbox-diameter: 30px;
+  --checkbox-border-radius: 50%;
+  --checkbox-border-color: #d9d9d9;
+  --checkbox-border-width: 1px;
+  --checkbox-border-style: solid;
+  /* checkmark */
+  --checkmark-size: 2;
+}
+
+.ui-checkbox,
+.ui-checkbox *,
+.ui-checkbox *::before,
+.ui-checkbox *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ui-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--checkbox-diameter);
+  height: var(--checkbox-diameter);
+  border-radius: var(--checkbox-border-radius);
+  background: var(--secondary-color);
+  border: var(--checkbox-border-width) var(--checkbox-border-style)
+    var(--checkbox-border-color);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.ui-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5)
+    var(--primary-color);
+  box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+  border-radius: inherit;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+  -o-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+  transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+}
+
+.ui-checkbox::before {
+  top: 40%;
+  left: 50%;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  border-right: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+  -ms-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+  transform: translate(-50%, -50%) rotate(45deg) scale(0);
+  opacity: 0;
+  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),
+    opacity 0.1s;
+  -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+}
+
+/* actions */
+
+.ui-checkbox:hover {
+  border-color: var(--primary-color);
+}
+
+.ui-checkbox:checked {
+  background: var(--primary-color);
+  border-color: transparent;
+}
+
+.ui-checkbox:checked::before {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg)
+    scale(var(--checkmark-size));
+  -ms-transform: translate(-50%, -50%) rotate(45deg)
+    scale(var(--checkmark-size));
+  transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+
+.ui-checkbox:active:not(:checked)::after {
+  -webkit-transition: none;
+  -o-transition: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  transition: none;
+  opacity: 1;
+}
+
+/* chanaging_section */
+
+.chanaging_section {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-next-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25rem;
+
+  margin-top: 20px;
+}
+
+.prev-btn {
+  font-size: 1.5rem;
+  background-color: rgb(108, 67, 255);
+  color: white;
+}
+.prev-btn:hover {
+  background-color: rgb(141, 109, 255);
+  color: white;
+}
+
+.next-btn {
+  font-size: 1.5rem;
+  background-color: rgb(108, 67, 255);
+  color: white;
+}
+.next-btn:hover {
+  background-color: rgb(129, 94, 255);
+  color: white;
+}
+
+/* PUblish */
+
+.publish_body {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  height: 50vh;
+}
+
+.done-btn {
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+/* ADD button */
+
+.add_btn_body {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add_btn {
+  color: white;
+  background-color: green;
+  width: 130px;
+  height: 50px;
+  font-size: 1.7rem;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.pre_btn {
+  color: white;
+  background-color: red;
+  width: 130px;
+  height: 50px;
+  font-size: 1.7rem;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.add_btn:hover {
+  background-color: rgb(0, 158, 0);
+  color: white;
+  border: 2px solid white;
+}
+.pre_btn:hover {
+  background-color: rgb(255, 49, 49);
+  color: white;
+  border: 2px solid white;
+}
+
+/* ERROR */
+
+.error_q_add {
+  color: RED;
+  font-size: 25px;
+}
+/* For Responsive */
+
+@media (max-width: 768px) {
+  .question {
+    flex-direction: column;
+  }
+  .pre-next-cont {
+    gap: 10rem;
+  }
+}
