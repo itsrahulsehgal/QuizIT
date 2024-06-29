@@ -2,17 +2,17 @@ import * as Yup from 'yup';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { useFormik, Form, FormikProvider } from 'formik';
-import uuid from 'uuid/dist/v4';
+import { v4 as uuidv4 } from 'uuid';
 // material
 import { TextField, Button } from '@material-ui/core';
 import { Stack } from '@mui/material';
-import AdapterDateFns from '@material-ui/lab/AdapterDateFns';
-import LocalizationProvider from '@material-ui/lab/LocalizationProvider';
-import MobileDatePicker from '@material-ui/lab/MobileDatePicker';
+import AdapterDateFns from '@mui/lab/AdapterDateFns';
+import LocalizationProvider from '@mui/lab/LocalizationProvider';
+import MobileDatePicker from '@mui/lab/MobileDatePicker';
 // ----------------------------------------------------------------------
 
 function TestForm({ handleBack, handleNext, setDetails, code, setTestId }) {
-  const testId = uuid();
+  const testId = uuidv4();
   const [dueDate, setDueDate] = useState(new Date());
   const RegisterSchema = Yup.object().shape({
     name: Yup.string()

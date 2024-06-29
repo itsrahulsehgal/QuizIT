@@ -16,7 +16,7 @@ import {
   FormControlLabel
 } from '@material-ui/core';
 import { Stack } from '@mui/material';
-import { LoadingButton } from '@material-ui/lab';
+import { LoadingButton } from '@mui/lab';
 
 import { login } from '../../../actions/auth';
 

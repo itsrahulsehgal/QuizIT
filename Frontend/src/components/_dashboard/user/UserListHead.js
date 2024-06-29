@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 // material
-import { visuallyHidden } from '@material-ui/utils';
 import { Box, TableRow, TableCell, TableHead, TableSortLabel } from '@material-ui/core';
 
 // ----------------------------------------------------------------------
@@ -35,7 +34,7 @@ export default function UserListHead({ order, orderBy, headLabel, onRequestSort 
             >
               {headCell.label}
               {orderBy === headCell.id ? (
-                <Box sx={{ ...visuallyHidden }}>
+                <Box>
                   {order === 'desc' ? 'sorted descending' : 'sorted ascending'}
                 </Box>
               ) : null}

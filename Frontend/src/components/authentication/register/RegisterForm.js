@@ -9,7 +9,7 @@ import eyeOffFill from '@iconify/icons-eva/eye-off-fill';
 // material
 import { TextField, IconButton, InputAdornment } from '@material-ui/core';
 import { Stack } from '@mui/material';
-import { LoadingButton } from '@material-ui/lab';
+import { LoadingButton } from '@mui/lab';
 
 import { register } from '../../../actions/auth';
 // ----------------------------------------------------------------------

@@ -39,22 +39,22 @@ function Router({ auth: { isAuthenticated, loading }, classroom }) {
     {
       path: '/dashboard',
       element: Private(<DashboardLayout />, <Navigate to="/login" />),
-      children: [{ path: '/', element: <Dashboard /> }]
+      children: [{ path: '', element: <Dashboard /> }]
     },
     {
       path: '/class',
       element: Private(<DashboardLayout />, <Navigate to="/login" />),
       children: [
-        { path: '/score/*', element: <Scores /> },
-        { path: '/*', element: <Classroom /> }
+        { path: 'score/*', element: <Scores /> },
+        { path: '', element: <Classroom /> }
       ]
     },
     {
       path: '/test',
       element: Private(<DashboardLayout />, <Navigate to="/login" />),
       children: [
-        { path: '/create/*', element: <CreateTest /> },
-        { path: '/*', element: <Test /> }
+        { path: 'create/*', element: <CreateTest /> },
+        { path: '', element: <Test /> }
       ]
     },
     {
@@ -67,18 +67,17 @@ function Router({ auth: { isAuthenticated, loading }, classroom }) {
         { path: '404', element: <NotFound /> },
         { path: 'github', element: <Github /> },
         {
-          path: '/',
+          path: '',
           element: <Navigate to="/login" />
         },
         { path: '*', element: <Navigate to="/404" /> }
       ]
     },
-
     { path: '*', element: <Navigate to="/404" replace /> }
   ]);
 }
 
-Router.prototype = {
+Router.propTypes = {
   auth: PropTypes.object.isRequired
 };
 
