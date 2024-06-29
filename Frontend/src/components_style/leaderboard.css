@@ -1,0 +1,157 @@
+.leaderboard_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutbody {
+  background: transparent;
+  height: 65vh;
+  text-align: center;
+  backdrop-filter: blur(30px);
+}
+
+/* caption of leader board */
+.h1_text {
+  font-size: 3.4rem;
+  line-height: 7rem;
+  font-weight: 800;
+  color: white;
+}
+/* participants_l */
+.participants_l_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(30px);
+  margin-bottom: 20px;
+}
+
+.participants_l {
+  color: white;
+  font-size: 2rem;
+}
+
+/* flexbox table */
+.flex_board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: purple;
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  color: white;
+}
+
+/* bORRROW FROM DASHBOARD */
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  backdrop-filter: blur(50px);
+}
+
+.option-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 5px solid white;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.selected {
+  color: white;
+  background-color: rgb(179, 0, 179);
+  border: 5px solid white;
+}
+
+.info-section {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.join-info,
+.host-info {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.column {
+  margin: 0 9%;
+}
+
+.info-title {
+  font-weight: bolder;
+  color: rgb(44, 23, 106);
+  text-decoration: underline;
+}
+
+.info-detail {
+  margin-top: 5px;
+  color: rgb(113, 83, 202);
+}
+
+/* Board */
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.head_board {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  background: rgb(179, 0, 179);
+  color: white;
+}
+
+.details_L {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  .h1_text {
+    font-size: 2rem;
+    line-height: 7rem;
+    font-weight: 800;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .participants_l {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
