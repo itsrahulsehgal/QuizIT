@@ -45,7 +45,7 @@ function Navbar() {
               <div class="container">
                 {/* Logo */}
                 <Link class="navbar-brand" to="/">
-                  MyQuiz
+                  QuizIT
                 </Link>
 
                 {/* Toggle-Btn */}
@@ -88,20 +88,20 @@ function Navbar() {
                           Home
                         </Link>
                       </li>
-                      <li class="nav-item mx-2">
+                      {/* <li class="nav-item mx-2">
                         <Link class="nav-link" to="/about">
                           About
                         </Link>
+                      </li> */}
+                      <li class="nav-item mx-2">
+                        <button class="nav-link" onClick={onDashboard}>
+                          Dashboard
+                        </button>
                       </li>
                       <li class="nav-item mx-2">
                         <Link class="nav-link" to="/contact">
                           Contact
                         </Link>
-                      </li>
-                      <li class="nav-item mx-2">
-                        <button class="nav-link" onClick={onDashboard}>
-                          Dashboard
-                        </button>
                       </li>
                     </ul>
 
@@ -171,11 +171,11 @@ function Navbar() {
                           Home
                         </Link>
                       </li>
-                      <li class="nav-item mx-2">
+                      {/* <li class="nav-item mx-2">
                         <Link class="nav-link" to="/about">
                           About
                         </Link>
-                      </li>
+                      </li> */}
                       <li class="nav-item mx-2">
                         <Link class="nav-link" to="/contact">
                           Contact

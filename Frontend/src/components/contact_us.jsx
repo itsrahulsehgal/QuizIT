@@ -38,18 +38,15 @@ const Contact_us = () => {
     <div className="container contact_us_body">
       {/* icons */}
       <div class="footer-icons">
-        <a href="https://github.com/Ezio7777/MyQuiz">
+        <a href="https://github.com/itsrahulsehgal/">
           <i class="fab fa-github"></i>
         </a>
 
-        <a href="https://www.instagram.com/sunitxg_007">
+        <a href="https://www.instagram.com/its_rahul.sehgal">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/in/sunit-pal-1a792824a/">
+        <a href="https://www.linkedin.com/in/rahul-sehgal-581041224/">
           <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://www.facebook.com/Sunit Pal">
-          <i class="fab fa-facebook"></i>
         </a>
       </div>
 

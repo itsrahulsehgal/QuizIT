@@ -9,7 +9,6 @@ import HostQuiz from "./components/host_quiz";
 import ShareCode from "./components/share_code";
 import QAdd from "./components/q_add";
 import ContactUs from "./components/contact_us";
-import About from "./components/about";
 import QShow from "./components/q_show";
 import Dashboard from "./components/dashboard.jsx";
 import Leaderboard from "./components/leaderboard.jsx";
@@ -39,7 +38,7 @@ function App() {
             </>
           }
         />
-        <Route
+        {/* <Route
           path="/about"
           element={
             <>
@@ -47,7 +46,7 @@ function App() {
               <About />
             </>
           }
-        />
+        /> */}
         <Route
           path="/contact"
           element={
