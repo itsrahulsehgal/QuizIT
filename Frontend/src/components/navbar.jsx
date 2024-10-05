@@ -128,7 +128,7 @@ function Navbar() {
               <div class="container">
                 {/* Logo */}
                 <Link class="navbar-brand simple_home_brand" to="/">
-                  MyQuiz
+                  QuizIT
                 </Link>
 
                 {/* Toggle-Btn */}
